@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "lib": ["dom", "es5", "es6"],
+    "target": "es2017",
+    "module": "commonjs",
+    "isolatedModules": false,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "paths": {
+      "~/*": ["./client/*"],
+      "@/*": ["./client/*"]
+    },
+    "outDir": "dist"
+  }
+}
